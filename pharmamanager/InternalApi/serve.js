@@ -9,7 +9,7 @@ const PharmaRoutes = require('./pharma.routes.js');
 
 const port = 1200;
 const app = express();
-const Database = 'mongodb://67.207.90.23:27017/pharma';
+const Database = env.process.DB;
 
 
 mongoose.Promise = global.Promise;
