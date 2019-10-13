@@ -100,9 +100,7 @@
 
 <script>
 import algoliasearch from 'algoliasearch/lite';
-import {
-  toLatLon, toLatitudeLongitude, headingDistanceTo, moveTo, insidePolygon,distanceTo
-} from 'geolocation-utils';
+
 
 export default {
   data() {
@@ -123,16 +121,11 @@ export default {
     const lng =  position.coords.longitude;
     const lat =  position.coords.latitude;
 
-    console.log(`longitude: ${ lng } | latitude: ${ lat }`);
-
-    let p = distanceTo({lat: lat, lon: lng}, {lat: 51.0006, lon: 4.001});
-    console.log(p);
-
 
      }
     }
   }
-};
+}
 </script>
 
 <style>
