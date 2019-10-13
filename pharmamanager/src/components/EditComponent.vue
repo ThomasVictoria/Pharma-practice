@@ -57,7 +57,7 @@
 
         this.axios.get(uri).then((res) => {
             this.PharmaData = res.data;
-            console.log(res.data);
+            
         });
       },
       methods:{
@@ -70,11 +70,6 @@
        function displayLocationInfo(position) {
         const lng =  position.coords.longitude;
         const lat =  position.coords.latitude;
-
-        console.log(`longitude: ${ lng } | latitude: ${ lat }`);
-
-        let p = distanceTo({lat: lat, lon: lng}, {lat: 51.0006, lon: 4.001});
-        console.log(p);
 
 
          }
