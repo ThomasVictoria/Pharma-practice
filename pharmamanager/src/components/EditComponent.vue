@@ -27,15 +27,15 @@
           <div class="col-md-6">
             <div class="form-group">
               <label>Pharmacy phone number:</label>
-              <h4>{{PharmaData.fields.telephone}}</h4>
+              <h4>+{{PharmaData.fields.telephone}}</h4>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <label>Pharmacy Zip code:</label>
-              <h4>{{PharmaData.fields.cp}}</h4>
+              <label>Country:</label>
+              <h4>{{PharmaData.fields.commune}}</h4>
             </div>
           </div>
         </div><br />
@@ -53,7 +53,7 @@
         }
       },
       created() {
-        let uri = `http://localhost:1200/edit/${this.$route.params.id}`;
+        let uri = `http://67.207.90.23:1200/edit/${this.$route.params.id}`;
 
         this.axios.get(uri).then((res) => {
             this.PharmaData = res.data;
