@@ -37,7 +37,7 @@ Example of JSON
 
 In the Algolia ecosystem, Indexing means we are going to take your data and organize them based on what is the most important thing for your customers to allow you to display a relevant search.
 
-**Which metrics should I take care of regarding the custom ranking?**
+**Which metrics should I take care of regarding the Custom ranking?**
 
 It's a great question George, based on what I have told you before. Custom ranking is one or more of the fields which are stored on Record object and indexing by Algolia.
 
