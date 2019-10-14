@@ -46,3 +46,9 @@ It means that Algolia, based on Custom ranking you have configured on your dashb
 Your Custom ranking could be the number of "like or number of order" a product has received.
 
 you'll find through this link more information about Custom ranking: https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/
+
+Do not hesitate if you've any questions/remarks.
+
+Best, 
+
+Lionel 
