@@ -13,7 +13,7 @@ I'm also struggling with understanding what types of metrics would be useful to 
 Cheers, George
 
   
-
+## Answer: 
 Hi George,
 
 Lionel from Algolia.
