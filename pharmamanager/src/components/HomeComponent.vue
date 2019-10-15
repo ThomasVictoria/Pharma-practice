@@ -7,7 +7,7 @@
               <div class="card-body">
                   On this platform, you could search a pharmacy by Name or Zipcode. <br>
                   <br>
-                  Click here to start : <a href="/search">let's play !</a>
+                  Click here to start : <router-link to="/search" class="nav-link">let's play with the Search Engine</router-link>
               </div>
 
           </div>

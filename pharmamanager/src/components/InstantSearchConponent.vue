@@ -32,7 +32,7 @@
    <tr v-for="item in items" :key="item.objectID">
        <td><ais-highlight attribute="fields.rs" :hit="item" /></td>
        <td><ais-highlight attribute="fields.cp" :hit="item" /></td>
-       <td><router-link :to="{name: 'edit', params: { id: item.recordid }}" class="btn btn-primary">Edit</router-link></td>
+       <td><router-link :to="{name: 'edit', params: { id: item.recordid }}" class="btn btn-primary">More infos</router-link></td>
        <td><button class="btn btn-danger">Delete</button></td>
 
    </tr>
