@@ -6,11 +6,9 @@ Sir Sokol called me and told me "Lionel, you have 3 hours to build a proof of co
 
 ## Project structure
 This project have been built with :
-
-# Techno
-Mongo DB
-Node.js
-Vue.js
+Mongo DB /
+Node.js/
+Vue.js/
 Algolia Instant Search
 
 On this project, I have created a small internal API which was written with Node.js  communicate with a front-end Vue.js app.  
